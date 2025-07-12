@@ -1,0 +1,50 @@
+body {
+    font-family: "Anonymous Pro", monospace;
+    letter-spacing: 2px;
+    background-color: #303030;
+    color: #592727;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+#terminal {
+    text-align: left;
+    background: black;
+    border: 5px solid #575757;
+    border-radius: 10px;
+    padding: 15px;
+    height: 88vh;
+    overflow-y: auto;
+    white-space: pre-wrap;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#input-line {
+    color: #575757;
+    margin-top: 0;
+    white-space: no-wrap;
+    display: flex;
+}
+
+input {
+    background: black;
+    color: #575757;
+    border: none;
+    font-family: "Anonymous Pro", monospace;
+    font-size: 16px;
+    flex: 1;
+    outline: none;
+}
+
+#output div {
+    margin: 0;
+    padding: 0;
+}
